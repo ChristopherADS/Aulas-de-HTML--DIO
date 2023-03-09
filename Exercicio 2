@@ -1,0 +1,86 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tags html 5 - estrutural</title>
+    </head>
+    <body>
+        <header>
+            <img src="https://i.pinimg.com/736x/74/f0/d6/74f0d61132557a962a1a6c03723c36a5.jpg"  alt="Logo da Clínica Médica">
+        </header>
+        <nav>
+            <ul>
+            <li><a href="#home">Página Principal</a></li>
+            <li><a href="#horario">Horário de Atendimento</a></li>
+            <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+            <h1>Bem-vindo à Clínica Médica</h1>
+            <p>Somos uma clinica com objetivo de oferecer qualidade de vida.</p>
+            </section>
+            <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p> Prontos a te atender sempre.</p>
+            </section>
+            <section id="horario">
+            <h2>Horário de Atendimento</h2>
+            <table>
+                <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+                </tr>
+                <tr>
+                <td>Segunda-feira</td>
+                <td>9:00 - 18:00</td>
+                </tr>
+                <tr>
+                <td>Terça-feira</td>
+                <td>9:00 - 18:00</td>
+                </tr>
+                <tr>
+                <td>Quarta-feira</td>
+                <td>9:00 - 18:00</td>
+                </tr>
+                <tr>
+                <td>Quinta-feira</td>
+                <td>9:00 - 18:00</td>
+                </tr>
+                <tr>
+                <td>Sexta-feira</td>
+                <td>9:00 - 18:00</td>
+                </tr>
+                <tr>
+                <td>Sábado</td>
+                <td>10:00 - 15:00</td>
+                </tr>
+                <tr>
+                <td>Domingo</td>
+                <td>Fechado</td>
+                </tr>
+            </table>
+            </section>
+            
+            <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+            </section>
+            <section id="mapa">
+            <h2>Localização</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!
+    </body>
+    </html>
